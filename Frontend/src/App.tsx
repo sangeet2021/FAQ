@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import faqData from "../data/db.json";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+    <main>
+      <div className="headers">
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          <FontAwesomeIcon icon={faQuestionCircle} size="1x" color="grey" />{" "}
+          FAQs
         </p>
+        <h1>Frequently Asked Questions</h1>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <div className="input-field">
+        <input
+          type="text"
+          placeholder="How efficient is the FAQ answering assistant?"
+        />
+        <button>
+          <FontAwesomeIcon icon={faSearch} className="search" />
+        </button>
+      </div>
+      <div className="faqs">
+        {faqData.map((faq, index) => (
+          <div className="ques"  key={faq.id}>
+            <p>{faq.question}</p>
+            <p className="add">+</p>
+          </div>
+        ))}
+      </div>
+    </main>
+  );
 }
 
-export default App
+export default App;

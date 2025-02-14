@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What is your return policy?",
+    "answer": "Our return policy allows you to return items within 30 days of purchase for a full refund."
+  },
+  {
+    "id": 2,
+    "question": "How do I track my order?",
+    "answer": "Once your order is shipped, you will receive a tracking number to monitor your shipment's progress."
+  },
+  {
+    "id": 3,
+    "question": "Do you offer international shipping?",
+    "answer": "Yes, we offer international shipping to most countries. Shipping rates will be calculated at checkout."
+  },
+  {
+    "id": 4,
+    "question": "Can I change my order after placing it?",
+    "answer": "You can modify your order within 24 hours of placing it. After that, it may have already been processed."
+  },
+  {
+    "id": 5,
+    "question": "How can I contact customer support?",
+    "answer": "You can reach customer support via email at support@example.com or through our contact form on the website."
+  }
+]
