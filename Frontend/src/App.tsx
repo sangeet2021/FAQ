@@ -5,6 +5,9 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import faqData from "../data/db.json";
 
 function App() {
+  const askQuestion = async() => {
+    window.alert("Question Asked")
+  }
   return (
     <main>
       <div className="headers">
@@ -19,7 +22,7 @@ function App() {
           type="text"
           placeholder="How efficient is the FAQ answering assistant?"
         />
-        <button>
+        <button onClick={askQuestion}>
           <FontAwesomeIcon icon={faSearch} className="search" />
         </button>
       </div>
