@@ -1,2 +1,2 @@
 # FAQ
-Deepseek based FAQ answering web-abb
+Deepseek based FAQ answering web-app
