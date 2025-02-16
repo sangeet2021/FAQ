@@ -1,5 +1,10 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 firebaseConfig = {
-  "apiKey": "AIzaSyBc96Irb39NKQ__MgrxhaosYyvTMjO2oGM",
+  "apiKey": os.getenv("FIREBASE_API"),
   "authDomain": "faq-bot-23f82.firebaseapp.com",
   "projectId": "faq-bot-23f82",
   "storageBucket": "faq-bot-23f82.firebasestorage.app",
