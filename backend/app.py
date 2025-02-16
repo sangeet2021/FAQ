@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 app = Flask(__name__)
 
 # Initialize Firebase
-cred = credentials.Certificate("./api-key.json")
+cred = credentials.Certificate("./static/api-key.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
