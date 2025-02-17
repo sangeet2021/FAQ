@@ -7,8 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 .env
-D:\Practice\FAQ_Project\backend\api-key.json
-D:\Practice\FAQ_Project\backend\firebase-config.py
+../backend/static/api-key.json
+../backend/static/firebase-config.py
 
 node_modules
 dist
