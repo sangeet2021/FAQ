@@ -7,8 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 .env
-../backend/static/api-key.json
-../backend/static/firebase-config.py
+
 
 node_modules
 dist
