@@ -1,3 +1,2 @@
 .env
-backend/static/.env
 backend/static/api-key.json
