@@ -1,2 +1,2 @@
 # FAQ
-Deepseek based FAQ answering web-app
+OpenAI API based FAQ answering web-app
