@@ -92,7 +92,7 @@ form button {
   padding: 0;
 }
 
-.response{
+.response {
   box-sizing: border-box;
   width: 50%;
   display: flex;
@@ -102,7 +102,7 @@ form button {
   min-height: 5rem;
   border-radius: 5px;
   max-height: fit-content;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
 }
 
 .loading-dots {
